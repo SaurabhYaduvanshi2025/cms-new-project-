@@ -1,0 +1,12 @@
+# Environment File
+.env
+
+# Composer
+/vendor/
+
+# Logs
+/storage/logs/
+/storage/cache/
+
+# Temporary Files
+*.log

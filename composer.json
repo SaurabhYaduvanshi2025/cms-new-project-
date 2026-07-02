@@ -1,0 +1,20 @@
+{
+    "name": "saurabhyadav/cmsproject",
+    "description": "Production Ready PHP CMS with E-Commerce",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Saurabhyadav\\Cmsproject\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "saurabh yaduvanshi",
+            "email": "saurabhyaduvanshi2018@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
