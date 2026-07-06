@@ -7,6 +7,8 @@
     "test": "tests"
   },
   "scripts": {
+    "build:css": "tailwindcss -i ./resources/css/input.css -o ./public/assets/css/style.css",
+    "dev:css": "tailwindcss -i ./resources/css/input.css -o ./public/assets/css/style.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

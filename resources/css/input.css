@@ -1,1 +1,4 @@
 @import "tailwindcss";
+
+@source "../../admin/**/*.php";
+@source "../../routes/**/*.php";
